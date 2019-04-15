@@ -24,7 +24,7 @@ import java.net.*;
 public class Client {
 
     public static void main(String[] args) throws Exception {
-        Socket sock = new Socket("198.143.37.14", 3895);
+        Socket sock = new Socket("198.143.37.14", 6969);
         // reading from keyboard (keyRead object)
         BufferedReader keyRead = new BufferedReader(new InputStreamReader(System.in));
         // sending to client (pwrite object)
